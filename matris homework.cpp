@@ -29,7 +29,7 @@ void matrisDoldurB(int matris[][SUTUN_B], int satir, int sutun) {
 void matrisYazdir(int satir, int sutun, int matris[satir][sutun]) {
     for (int i = 0; i < satir; i++) {
         for (int j = 0; j < sutun; j++) {
-            printf("%3d ", matris[i][j]); // 4 karakter genişliğinde hizalama
+            printf("%3d ", matris[i][j]); // 3 karakter genişliğinde hizalama
         }
         printf("\n");
     }
